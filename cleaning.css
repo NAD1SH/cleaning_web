@@ -1,0 +1,528 @@
+body{
+    margin: 0px;
+}
+.main-head-image{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    background-color: #d0e7fe;
+}
+.first-image{
+    width: 50%;
+    height: fit-content;
+}
+.second-image{
+    width: 50%;
+    height: fit-content;
+}
+.benefits-our-company{
+    background-color: #0A7273;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.benefits{
+    width: 85%;
+    height: fit-content;
+    margin-top: 100px;
+    display: flex;
+}
+.benefit-contant{
+    width: 65%;
+    height: 200px;
+    color: #fff;
+}
+.benefit-more-info{
+    width: 35%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.benefit-headding{
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.benefit-contant-para{
+    width: 80%;
+    height: 110px;
+}
+.benefit-para{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.get-start-more-info-but{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.get-start-btn{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+.start-button{
+    width: 140px;
+    height: 50px;
+    border: none;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.more-info-btn{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+}
+.more-button{
+    width: 140px;
+    height: 50px;
+    background-color: #0A7273;
+    border: 2px solid #fff;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+}
+.start-button:hover{
+    background-color: #0A7273;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.more-button:hover{
+    border: none;
+    color: black;
+    background-color: yellow;
+}
+.specialities{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0e7fe;
+}
+.specialities-of-company{
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.spec-best-master{
+    width: 30%;
+    height: 250px;
+    /* background-color: yellowgreen; */
+}
+.spec-satisfied-customer{
+    width: 30%;
+    height: 250px;
+    /* background-color: yellow; */
+}
+.spec-more-profitable{
+    width: 30%;
+    height: 250px;
+    /* background-color: violet; */
+}
+.spec-expect{
+    font-size: 90px;
+    font-family: sans-serif;
+    color: #063455;
+}
+.best-master-contant{
+    width: 100%;
+    height: fit-content;
+    /* background-color: #0A7273; */
+}
+.spec-side-heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #063455;
+}
+.spec-side-para{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #063455;
+}
+.about-company-and-manager{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A7273;
+}
+.about-manager-and-photo{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    /* background-color: #d0e7fe; */
+}
+.about-manager{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.manager-photo{
+    width: 40%;
+    height: 400px;
+    /* background-color: brown; */
+}
+.cleaing-image{
+    object-fit: cover;
+}
+.about-company{
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    /* background-color: #d0e7fe; */
+}
+.about-company-para{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.manager-name{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 600;
+    color: #fff;
+}
+.manager-expert{
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.for-other-more-details-block{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #d0e7fe;
+}
+.for-other-more-details{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.for-contact-us-button{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: violet; */
+}
+.get-start-button{
+    width: 125px;
+    height: 50px;
+    background-color: yellow;
+    border: none;
+    font-size: 10px;
+    font-weight: 800;
+    color: #063455;
+    font-family: sans-serif;
+}
+.get-start-button:hover{
+    background-color: #063455;
+    color: #fff;
+}
+.more-info-button{
+    width: 125px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #063455;
+    font-size: 10px;
+    font-weight: 800;
+    color: #063455;
+    font-family: sans-serif;
+}
+.more-info-button:hover{
+    background-color: yellow;
+    border: none;
+    color: #063455;
+}
+.contact-us-button{
+    width: 125px;
+    height: 50px;
+    background-color: #063455;
+    border: none;
+    font-size: 10px;
+    font-weight: 800;
+    color: #fff;
+    font-family: sans-serif;
+}
+.contact-us-button:hover{
+    background-color: #fff;
+    border: 2px solid #063455;
+    color: #063455;
+}
+
+
+/*-------------meadia query--------------*/
+
+
+@media only screen and (max-width:1200px){
+    .benefits-our-company{
+        height: 350px;
+    }
+    .benefit-headding{
+        font-size: 45px;
+    }
+    .benefit-para{
+        font-size: 15px;
+    }
+    .benefit-contant{
+        height: fit-content;
+    }
+    .benefit-more-info{
+        height: 165px;
+    }
+    .get-start-more-info-but{
+        height: 40px;
+    }
+    .more-info-btn{
+        height: 40px;
+    }
+    .get-start-btn{
+        height: 40px;
+    }
+    .start-button{
+        width: 110px;
+        height: 40px;
+    }
+    .more-button{
+        width: 110px;
+        height: 40px;
+    }
+    .spec-expect{
+        font-size: 75px;
+    } 
+    .spec-side-heading{
+        font-size: 25px;
+    }    
+    .spec-side-para{
+        font-size: 12px;
+    }
+    .spec-best-master{
+        height: 200px;
+    }
+    .spec-satisfied-customer{
+        height: 200px;
+    }
+    .spec-more-profitable{
+        height: 200px;
+    }
+    .specialities{
+        height: 350px;
+    }
+    .about-company-para{
+        font-size: 15px;
+    }
+    .manager-name{
+        font-size: 15px;
+    }
+    .manager-expert{
+        font-size: 12px;
+    }
+    .about-company{
+        height: 170px;
+    }
+    .manager-photo{
+        height: 250px;
+    }
+    .about-manager{
+        height: 250px;
+    }
+    .about-company-and-manager{
+        height: 400px;
+    }
+    .get-start-button{
+        width: 110px;
+        height: 40px;
+    }
+    .more-info-button{
+        width: 110px;
+        height: 40px;
+    }
+    .contact-us-button{
+        width: 110px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 965px){
+    .specialities{
+        height: 500px;
+    }
+    .specialities-of-company{
+        flex-wrap: wrap;
+    }
+    .spec-best-master{
+        width: 45%;
+    }
+    .spec-satisfied-customer{
+        width: 45%;
+    }
+    .spec-more-profitable{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .benefits-our-company{
+        height: fit-content;
+    }
+    .benefits{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .benefit-contant{
+        width: 100%;
+    }
+    .benefit-headding{
+        font-size: 50px;
+    }
+    .benefit-para{
+        font-size: 18px;
+    }
+    .benefit-more-info{
+        width: 50%;
+        height: 110px;
+    }
+    .get-start-btn{
+        justify-content: left;
+    }
+    .more-info-btn{
+        justify-content: left;
+    }
+    .specialities{
+        height: fit-content;
+    }
+    .specialities-of-company{
+        flex-direction: column;
+        margin-top: 30px;
+        height: fit-content;
+    }
+    .spec-best-master {
+        width: 100%;
+    }
+    .spec-expect{
+        font-size: 90px;
+    }
+    .spec-side-heading{
+        font-size: 30px;
+    }
+    .spec-side-para{
+        font-size: 15px;
+    }
+    .spec-satisfied-customer{
+        width: 100%;
+    }
+    .spec-more-profitable{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about-company-and-manager{
+        height: fit-content;
+    }
+    .about-manager-and-photo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-manager{
+        order: 2;
+        margin-left: 18%;
+        height: 200px;
+        width: 65%;
+    }
+    .manager-photo{
+        order: 1;
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 25%;
+    }
+    .more-details{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .benefit-more-info{
+        width: 60%;
+    }
+    .spec-expect{
+        font-size: 75px;
+    }
+    .spec-side-heading{
+        font-size: 25px;
+    }
+    .manager-photo{
+        width: 70%;
+        height: fit-content;
+        margin-left: 14%;
+    }
+    .about-manager{
+        width: 85%;
+        margin-left: 6%;
+    }
+}
+
+@media only screen and (max-width : 468px){
+    .benefit-headding{
+        font-size: 40px;
+    }
+    .benefit-contant-para{
+        width: 90%;
+        height: 80px;
+    }
+    .benefit-para{
+        font-size: 14px;
+    }
+    .start-button, .more-button, .contact-us-button{
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media only screen and (max-width : 425px){
+    .spec-expect{
+        font-size: 50px;
+    }
+    .spec-side-heading{
+        font-size: 20px;
+    }
+    .spec-side-para{
+        font-size: 14px;
+    }
+    .spec-best-master, .spec-satisfied-customer, .spec-more-profitable{
+        height: 180px;
+    }
+    .about-manager{
+        width: 95%;
+        margin-left: 2%;
+    }
+    .about-company-para{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width : 375px){
+    .benefit-headding{
+        font-size: 30px;
+    }
+    .benefit-more-info{
+        width: 75%;
+    }
+}
